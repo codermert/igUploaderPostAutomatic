@@ -31,7 +31,7 @@ const postToInsta = async () => {
 
     for (let i = 0; i < 30; i++) {
       const response = await get({
-        url: 'https://picsum.photos/800/800', // random picture with 800x800 size
+        url: 'https://picsum.photos/1080/1080', // random picture with 800x800 size
         encoding: null, // this is required, only this way a Buffer is returned
       });
 
