@@ -50,7 +50,7 @@ const postToInsta = async () => {
 
       // Hikaye paylaşımı
       const storyResponse = await get({
-        url: 'https://picsum.photos/1080/1920', // random picture with 1080x1080 size
+        url: 'https://picsum.photos/1080/1920', // random picture with 1080x1920 size
         encoding: null,
       });
 
